@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="17px" viewBox="0 0 27 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>euw-searchbar</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="playground" transform="translate(-614.000000, -2022.000000)">
+            <g id="euw-searchbar" transform="translate(614.000000, 2022.000000)">
+                <rect id="Rectangle-Copy-63" fill="#1246AE" fill-rule="nonzero" x="0" y="0" width="27" height="17"></rect>
+                <path d="M4,11.003 L4,5 L8.248,5 L8.248,6.098 L5.278,6.098 L5.278,7.403 L8.185,7.403 L8.185,8.501 L5.278,8.501 L5.278,9.896 L8.248,9.896 L8.248,11.003 L4,11.003 Z M9.247,8.609 L9.247,5 L10.543,5 L10.543,8.564 C10.543,9.401 11.002,9.977 11.938,9.977 C12.856,9.977 13.315,9.401 13.315,8.564 L13.315,5 L14.611,5 L14.611,8.6 C14.611,10.094 13.756,11.111 11.938,11.111 C10.102,11.111 9.247,10.085 9.247,8.609 Z M20.389,11.003 L19.336,6.881 L18.292,11.003 L16.933,11.003 L15.214,5 L16.645,5 L17.698,9.338 L18.841,5 L19.84,5 L20.974,9.338 L22.018,5 L23.458,5 L21.748,11.003 L20.389,11.003 Z" id="EUW-Copy-3" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

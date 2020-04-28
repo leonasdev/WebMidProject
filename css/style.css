@@ -25,7 +25,7 @@
   margin:0 0;
 }
 .box_Body{
-  width: 1188px;
+  width: 1920px;
   height: 840px;
   display: flex;
   flex-direction: column;
@@ -54,7 +54,7 @@
 }
 
 .nav-center {
-    width: 540px;
+    width: 444px;
 }
 
 .art01 {
@@ -69,10 +69,10 @@ li {
 nav a {
     background-color: #17172e;
     color: #cccccc;
-    height: 76px;
-    width: 180px;
+    height: 120px;
+    width: 148px;
     text-align: center;
-    line-height: 80px;
+    line-height: 100px;
 }
 
     nav a:hover {
@@ -92,8 +92,30 @@ nav a {
 }
 
 .nav_box {
-    width: 1188px;
+    width: 1920px;
+    height: 120px;
     margin: 0 auto;
     justify-content: space-between;
-    padding: 0px ;
+    padding-left: 96px !important;
+    padding-right: 96px !important;
+}
+
+.logo {
+    margin-bottom:15px; 
+}
+
+.btn {
+    width: 100px;
+    height: 52px;
+    margin-left: 48px !important;
+    font-size: 20px;
+    
+}
+
+.btn_text {
+    font-size:20px;
+    margin-top:4px;
+}
+.nav_text{
+    font-size:28px;
 }

@@ -1,6 +1,6 @@
 .background {
     width: 1920px;
-    height: 1455px;
+    height: 5000px;
     background-color: #070720;
 }
 .box_Top_Bottom{
@@ -117,4 +117,59 @@ nav a {
 }
 .nav_text{
     font-size:28px;
+}
+
+#backgroung_PIC {
+    position: absolute;
+    z-index: 0;
+}
+
+#Content {
+    position: absolute;
+    z-index: 1;
+}
+
+.content_c {
+    padding: 0;
+    margin-left: 96px;
+    margin-right: 96px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 1728px;
+}
+
+.content_text {
+    font-size:30px;
+
+}
+.content_text2 {
+    font-size: 36px;
+    line-height:10px;
+}
+
+.content_text3 {
+    font-size: 28px;
+    line-height: 18px;
+}
+
+.content_text4 {
+    font-size: 72px;
+    line-height: 45px;
+}
+
+.content_a {
+    padding: 0;
+    margin-left: 244px;
+    margin-right: 244px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 1432px;
+}
+
+.line {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
 }

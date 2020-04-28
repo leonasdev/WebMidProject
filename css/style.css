@@ -1,6 +1,6 @@
 .background {
     width: 1920px;
-    height: 5000px;
+    height: 3800px;
     background-color: #070720;
 }
 .box_Top_Bottom{
@@ -173,3 +173,39 @@ nav a {
     margin-bottom: 30px;
     background-color: #ffffff;
 }
+
+.content_b {
+    padding: 0;
+    margin-left: 836px;
+    margin-right: 836px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    width: 1432px;
+}
+
+.content_d {
+    padding: 0;
+    margin-left: 688px;
+    margin-right: 688px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    width: 1432px;
+}
+
+.content_small {
+    padding: 0;
+
+    list-style: none;
+    display: flex;
+    text-align: center;
+    width: 1432px;
+}
+.like-table {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+

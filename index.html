@@ -1,81 +1,205 @@
-<DOCTYPE html>
-    <html>
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      
-     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
-      <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-      <title>Champions</title>
-      
-      
-      
-    </head>
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <title>GYY.GG</title>
+</head>
+    
     <body>
-      <!--Head-->
-      <div class="background">
         <header>
-          
+            <div id="topheader">
+                <nav class="bg-nav">
+
+                    <div class="navbar navbar-expand-sm nav_box justify-content-between p-0 navbar-dark">
+
+                        <a class="navbar-brand" href="index.html"><img src=./images/logo.png alt="" style="width: 200px;height: 60px;"></a>
+
+
+                        <ul class="nav navbar-nav nav-center justify-content-around ">
+                            <li class="nav-item active ">
+                                <a class="nav-link" href="index.html">首頁</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Champions.html">英雄</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Combos.html">連技</a>
+                            </li>
+                        </ul>
+
+
+                        <div class="nav-right">
+                            <button type="button" class="btn btn-outline-light btn-primary mr-5">登入</button>
+                            <button type="button" class="btn btn-outline-secondary">註冊</button>
+                        </div>
+
+                    </div>
+                    
 
 
 
-          <nav class="navbar navbar-expand-sm bg-nav navbar-dark fixed-top item">
-
-            <a class="navbar-brand" href="#"><img src=./images/logo2.png alt="" style="widows: 260px;height: 90px;padding-left: 46px;"></a>
-
-            <div class="nav-center item" style="">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">首頁</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">英雄</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">連技</a>
-                </li>
-              </ul>
+                </nav>
             </div>
-            
-            <div class="nav-right">
-              <a href="#" class="btn btn-primary btn-icon-split">
-                <span class="text">登入</span>
-              </a>
-              <a href="#" class="btn btn-info btn-icon-split">
-                <span class="text">註冊</span>
-              </a>
-            </div>
-            
-          </nav>
-          
-          
-          
         </header>
-        <!--Code-->
-        <article>
-          <div class="container-fluid" style="margin-top:80px">
-            <h3>固定导航栏</h3>
-            <p>导航栏可以固定在头部或者底部。</p>
-            <h1>滚动页面查看效果。</h1>
-          </div>
-        </article>
-        <!--Code-->
-        <!--Foot-->
-        <footer class="navbar  bg-nav navbar-dark fixed-bottom" style="margin-top: 0px;"><!--此margin視各頁面修改-->
-          <p class="text_NoAlign" style="font-size: 24px;margin-left: 46px;">關於我們</p>
-          <p class="text_NoAlign" style="font-size: 24px;margin-left: 90px;">FAQ</p>
-          <p class="text_NoAlign" style="font-size: 24px;margin-left: 90px;">隱私權政策</p>
-          <p class="text_NoAlign" style="font-size: 24px;margin-left: 90px;">服務條款</p>
-          <p class="text_NoAlign" style="font-size: 24px;margin-left: 90px;">聯絡我們</p>
-          <img src="./images/icon_facebook.png" alt="" style="width: 48px;height: 48px;margin-left: 108px;">
-          <img src="./images/icon_instagram.png" alt="" style="width: 48px;height: 48px;margin-left: 26px;">
-          <img src="./images/icon_twitter.png" alt="" style="width: 48px;height: 48px;margin-left: 26px;">
-          <img src="./images/icon_reddit.png" alt="" style="width: 48px;height: 48px;margin-left: 26px;">
-        </footer>
 
-      </div>
+        <article class="background">
+            <p class="text_NoAlign" style="font-size: 60px;padding-top: 35px;">英雄</p>
+            <p class="text_NoAlign" style="font-size: 24px;padding-top: 16px;">開闢最適合你的英雄</p>
+            <div class="box_Body" style="margin-top: 60px;">
+                <div style="display: flex;justify-content: space-around;">
+                    <div>
+                        <img src="./images/Ezreal.png" alt="" class="img_Body">
+                        <p class="text_Center">伊澤瑞爾</p>
+                    </div>
+                    <div>
+                        <img src="./images/Gragas.png" alt="" class="img_Body">
+                        <p class="text_Center">古拉格斯</p>
+                    </div>
+                    <div>
+                        <img src="./images/Volibear.png" alt="" class="img_Body">
+                        <p class="text_Center">弗利貝爾</p>
+                    </div>
+                    <div>
+                        <img src="./images/Ornn.png" alt="" class="img_Body">
+                        <p class="text_Center">鄂爾</p>
+                    </div>
+                    <div>
+                        <img src="./images/MasterYi.png" alt="" class="img_Body">
+                        <p class="text_Center">易大師</p>
+                    </div>
+                    <div>
+                        <img src="./images/Zac.png" alt="" class="img_Body">
+                        <p class="text_Center">札克</p>
+                    </div>
+                </div>
+                <div style="display: flex;justify-content: space-around;">
+                    <div>
+                        <img src="./images/Akali.png" alt="" class="img_Body">
+                        <p class="text_Center">阿卡莉</p>
+                    </div>
+                    <div>
+                        <img src="./images/Annie.png" alt="" class="img_Body">
+                        <p class="text_Center">安妮</p>
+                    </div>
+                    <div>
+                        <img src="./images/Caitlyn.png" alt="" class="img_Body">
+                        <p class="text_Center">凱特琳</p>
+                    </div>
+                    <div>
+                        <img src="./images/Darius.png" alt="" class="img_Body">
+                        <p class="text_Center">達瑞斯</p>
+                    </div>
+                    <div>
+                        <img src="./images/Fiddlesticks.png" alt="" class="img_Body">
+                        <p class="text_Center">費德提克</p>
+                    </div>
+                    <div>
+                        <img src="./images/Ivern.png" alt="" class="img_Body">
+                        <p class="text_Center">艾爾文</p>
+                    </div>
+                </div>
+                <div style="display: flex;justify-content: space-around;">
+                    <div>
+                        <img src="./images/Janna.png" alt="" class="img_Body">
+                        <p class="text_Center">珍娜</p>
+                    </div>
+                    <div>
+                        <img src="./images/Jinx.png" alt="" class="img_Body">
+                        <p class="text_Center">吉茵珂絲</p>
+                    </div>
+                    <div>
+                        <img src="./images/Kaisa.png" alt="" class="img_Body">
+                        <p class="text_Center">凱莎</p>
+                    </div>
+                    <div>
+                        <img src="./images/Leblanc.png" alt="" class="img_Body">
+                        <p class="text_Center">勒布朗</p>
+                    </div>
+                    <div>
+                        <img src="./images/LeeSin.png" alt="" class="img_Body">
+                        <p class="text_Center">李星</p>
+                    </div>
+                    <div>
+                        <img src="./images/Pantheon.png" alt="" class="img_Body">
+                        <p class="text_Center">潘森</p>
+                    </div>
+                </div>
+                <div style="display: flex;justify-content: space-around;">
+                    <div>
+                        <img src="./images/Sylas.png" alt="" class="img_Body">
+                        <p class="text_Center">賽勒斯</p>
+                    </div>
+                    <div>
+                        <img src="./images/Thresh.png" alt="" class="img_Body">
+                        <p class="text_Center">瑟雷西</p>
+                    </div>
+                    <div>
+                        <img src="./images/Varus.png" alt="" class="img_Body">
+                        <p class="text_Center">法洛士</p>
+                    </div>
+                    <div>
+                        <img src="./images/Yasuo.png" alt="" class="img_Body">
+                        <p class="text_Center">犽宿</p>
+                    </div>
+                    <div>
+                        <img src="./images/Yuumi.png" alt="" class="img_Body">
+                        <p class="text_Center">悠咪</p>
+                    </div>
+                    <div>
+                        <img src="./images/Zed.png" alt="" class="img_Body">
+                        <p class="text_Center">劫</p>
+                    </div>
+                </div>
+                <div style="display: flex;justify-content: space-around;">
+                    <div>
+                        <img src="./images/Zoe.png" alt="" class="img_Body">
+                        <p class="text_Center">柔伊</p>
+                    </div>
+                    <div>
+                        <img src="./images/Katarina.png" alt="" class="img_Body">
+                        <p class="text_Center">卡特蓮娜</p>
+                    </div>
+                    <div>
+                        <img src="./images/Riven.png" alt="" class="img_Body">
+                        <p class="text_Center">雷玟</p>
+                    </div>
+                    <div>
+                        <img src="./images/JarvanIV.png" alt="" class="img_Body">
+                        <p class="text_Center">嘉文四世</p>
+                    </div>
+                    <div>
+                        <img src="./images/Teemo.png" alt="" class="img_Body">
+                        <p class="text_Center">提摩</p>
+                    </div>
+                    <div>
+                        <img src="./images/Jayce.png" alt="" class="img_Body">
+                        <p class="text_Center">杰西</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+        <footer class="navbar  bg-nav navbar-dark fixed-bottom" style="margin-top: 0px;">
+            <!--此margin視各頁面修改-->
+            <p class="text_NoAlign" style="font-size: 24px;margin-left: 46px;">關於我們</p>
+            <p class="text_NoAlign" style="font-size: 24px;margin-left: 90px;">FAQ</p>
+            <p class="text_NoAlign" style="font-size: 24px;margin-left: 90px;">隱私權政策</p>
+            <p class="text_NoAlign" style="font-size: 24px;margin-left: 90px;">服務條款</p>
+            <p class="text_NoAlign" style="font-size: 24px;margin-left: 90px;">聯絡我們</p>
+            <img src="./images/icon_facebook.png" alt="" style="width: 48px;height: 48px;margin-left: 108px;">
+            <img src="./images/icon_instagram.png" alt="" style="width: 48px;height: 48px;margin-left: 26px;">
+            <img src="./images/icon_twitter.png" alt="" style="width: 48px;height: 48px;margin-left: 26px;">
+            <img src="./images/icon_reddit.png" alt="" style="width: 48px;height: 48px;margin-left: 26px;">
+        </footer>
     </body>
-    </html>
+</html>

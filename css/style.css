@@ -43,8 +43,9 @@
   color:#FFFFFF;
 }
 
-.bg-nav{
-  background-color:#17172e;
+.bg-nav {
+    background-color: #17172e;
+    
 }
 
 .item {
@@ -52,6 +53,47 @@
   
 }
 
-.nav-center{
-  justify-content:space-around;
+.nav-center {
+    width: 540px;
+}
+
+.art01 {
+    background-color: azure;
+}
+
+li {
+    text-align: center;
+}
+
+
+nav a {
+    background-color: #17172e;
+    color: #cccccc;
+    height: 76px;
+    width: 180px;
+    text-align: center;
+    line-height: 80px;
+}
+
+    nav a:hover {
+        background-color: #17172e;
+        color: #ffffff;
+    }
+
+    nav a:focus {
+        background-color: #31334a;
+        flood-color: #cccccc;
+    }
+
+#topheader .navbar-nav li.active > a {
+    background-color: #31334a;
+    flood-color: #cccccc;
+    border-bottom: 3px solid #005fe1;
+}
+
+.nav_box {
+    width: 1188px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0px ;
 }

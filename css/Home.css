@@ -59,7 +59,7 @@ body {
 }
 
 .nav-center {
-    width: 444px;
+    width: 840px;
 }
 
 .art01 {
@@ -75,7 +75,7 @@ nav a {
     background-color: #17172e;
     color: #cccccc;
     height: 120px;
-    width: 148px;
+    width: 248px;
     text-align: center;
     line-height: 100px;
     transition: 0.3s;
@@ -94,7 +94,7 @@ nav a {
 #topheader .navbar-nav li.active > a {
     background-color: #31334a;
     flood-color: #cccccc;
-    border-bottom: 3px solid #005fe1;
+    border-bottom: 11px solid #096fb2;
 }
 
 .nav_box {

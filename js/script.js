@@ -1,8 +1,18 @@
-$(document).ready(function() {
+$(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 800) {
+        $('.bottomMenu').fadeIn();
+    } else {
+        $('.bottomMenu').fadeOut();
+    }
 
-    $('.hello').click(function(){
+});
 
-        $(this).css('color','red');
+$(document).ready(function () {
+
+    $('.hello').click(function () {
+
+        $(this).css('color', 'red');
 
     });
 

@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'HanSans';
+  font-family: "Bestfont";
   src: url("../font/limited-GenJyuuGothicX-P-Regular.ttf")format("truetype");
 }
 .background {
@@ -8,7 +8,7 @@
   background-color: #070720;
 }
 .text_NoAlign{
-  font-family: 'HanSans';
+  font-family: "Bestfont";
   color:#FFFFFF;
   margin:0 0;
 }
@@ -25,7 +25,7 @@
   width: 120px;
 }
 .text_Center{
-  font-family: 'HanSans';
+  font-family: "Bestfont";
   font-size: 24px;
   text-align: center;
   margin:0 0;

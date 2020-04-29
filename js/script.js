@@ -15,7 +15,7 @@ $(document).ready(function () {
             if (bottom_of_window > bottom_of_object - 100) {
 
                 $(this).animate({ 'opacity': '1' }, { duration: 500, queue: false });;
-                $(this).animate({ 'left': '0px' }, { duration: 500, queue: false });;
+
             }
 
         });

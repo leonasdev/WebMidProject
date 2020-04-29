@@ -1,11 +1,11 @@
 body {
     overflow-x: hidden;
     overflow-y: auto;
-    margin: 0 auto;
+
 }
 
 .background {
-    width: 1920px;
+    width: auto;
     height: 3800px;
     background-color: #070720;
 }
@@ -228,5 +228,16 @@ nav a {
 }
 
 
+
+.bottomMenu {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #000;
+    background: red;
+    z-index: 1;
+}
 
 

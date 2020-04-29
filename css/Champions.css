@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Bestfont";
-  src: url("../font/BugMaruGothic.ttc")format("truetype");
+  src: url("../font/NotoSansCJKtc-Thin.otf")format("truetype");
 }
 .background {
   width: auto;

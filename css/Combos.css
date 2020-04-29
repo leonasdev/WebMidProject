@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Bestfont";
+  src: url("../font/NotoSansCJKtc-Thin.otf")format("truetype");
+}
 .background {
     width: auto;
     height:1680px;
@@ -10,10 +14,12 @@
     background-color: #070720;
 }
 .text_NoAlign{
-    color:#FFFFFF;
-    margin:0 0;
-  }
+  font-family: "Bestfont";
+  color:#FFFFFF;
+  margin:0 0;
+}
 .text_Center{
+  font-family: "Bestfont";
   text-align: center;
   margin:0 0;
   color:#FFFFFF;

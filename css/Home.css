@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'HanSans';
+    src: url("../fonts/DFT_8.ttf") format("truetype");
+}
+
 body {
     overflow-x: hidden;
     overflow-y: auto;
-
+    font-family: 'HanSans';
 }
 
 .background {
@@ -79,6 +84,7 @@ nav a {
     text-align: center;
     line-height: 100px;
     transition: 0.3s;
+
 }
 
     nav a:hover {
@@ -136,8 +142,9 @@ nav a {
     margin-top: 4px;
     color: #FFFFFF !important;
 }
-.nav_text{
-    font-size:28px;
+.nav_text {
+    font-size: 28px;
+    font-family: 'funsong';
 }
 
 #backgroung_PIC {
@@ -161,22 +168,25 @@ nav a {
 }
 
 .content_text {
-    font-size:30px;
-
+    font-size: 30px;
+    font-family: 'HanSans';
 }
 .content_text2 {
     font-size: 36px;
-    line-height:10px;
+    line-height: 10px;
+    font-family: 'HanSans';
 }
 
 .content_text3 {
     font-size: 28px;
     line-height: 18px;
+    font-family: 'HanSans';
 }
 
 .content_text4 {
     font-size: 72px;
     line-height: 45px;
+    font-family: 'HanSans';
 }
 
 .content_a {

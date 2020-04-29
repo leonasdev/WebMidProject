@@ -1,8 +1,7 @@
 @font-face {
     font-family: 'HanSans';
-    src: url("../fonts/DFT_8.ttf") format("truetype");
+    src: url("../font/limited-GenJyuuGothicX-P-Regular.ttf")format("truetype");
 }
-
 body {
     overflow-x: hidden;
     overflow-y: auto;
@@ -85,6 +84,7 @@ nav a {
     line-height: 100px;
     transition: 0.3s;
 
+
 }
 
     nav a:hover {
@@ -137,14 +137,18 @@ nav a {
     
 }
 
+.btn_li_text {
+    font-family: 'HanSans';
+}
 .btn_text {
     font-size: 20px;
     margin-top: 4px;
     color: #FFFFFF !important;
+    font-family: 'HanSans';
 }
 .nav_text {
     font-size: 28px;
-    font-family: 'funsong';
+    font-family: 'HanSans';
 }
 
 #backgroung_PIC {

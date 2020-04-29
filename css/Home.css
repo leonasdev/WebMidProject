@@ -244,11 +244,6 @@ nav a {
 
 .hideme {
     opacity: 0;
-    left: -100px;
 
 }
 
-.showme {
-    opacity: 1;
-    left: 0px;
-}

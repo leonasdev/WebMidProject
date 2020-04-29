@@ -23,3 +23,16 @@ $(document).ready(function () {
     });
 
 });
+window.onload = function () {
+
+    var v = document.getElementById("myVideo");
+    var p = document.getElementById("grop");
+    var c = document.getElementById("currentPbr");
+
+    p.addEventListener('input', function () {
+        c.innerHTML = p.value;
+        v.playbackRate = p.value;
+    }, false);
+
+};
+

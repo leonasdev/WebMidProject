@@ -1,6 +1,6 @@
 $(document).scroll(function () {
     var y = $(this).scrollTop();
-    if (y > 800) {
+    if (y > 10) {
         $('.bottomMenu').fadeIn();
     } else {
         $('.bottomMenu').fadeOut();

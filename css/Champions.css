@@ -1,24 +1,7 @@
 .background {
-  width: 1920px;
-  height: 1355px;
+  width: auto;
+  height: auto;
   background-color: #070720;
-}
-.box_Top_Bottom{
-  width: 1920px;
-  height: 120px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  background-color: #17172e;
-}
-.box_Login_Signup{
-  width: 145px;
-  height: 52px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 2px solid #ffffff;
 }
 .text_NoAlign{
   color:#FFFFFF;

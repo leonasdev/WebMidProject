@@ -1,6 +1,7 @@
 body {
     overflow-x: hidden;
     overflow-y: auto;
+    margin: 0 auto;
 }
 
 .background {
@@ -103,6 +104,11 @@ nav a {
     justify-content: space-between;
     padding-left: 96px !important;
     padding-right: 96px !important;
+}
+
+.article_box {
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .logo {

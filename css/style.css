@@ -101,7 +101,15 @@ nav a {
 }
 
 .logo {
-    margin-bottom:15px; 
+    margin-bottom: 15px;
+}
+
+.logo :hover {
+    background-color: #17172e !important;
+}
+
+.logo :focus {
+    background-color: #17172e !important;
 }
 
 .btn {
@@ -207,6 +215,7 @@ nav a {
     text-align: center;
     vertical-align: middle;
 }
+
 
 
 

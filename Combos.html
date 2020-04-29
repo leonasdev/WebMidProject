@@ -10,6 +10,9 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+
         <title>GYY.GG | Combos</title>
         <link rel="stylesheet" type="text/css" href="css/Combos.css">
     </head>
@@ -41,7 +44,7 @@
 
                         <div class="nav-right">
                             <button type="button" class="btn btn-default btn-primary"><p class="btn_text">登入</p></button>
-                            <button type="button" class="btn btn-default btn-outline-secondary"><p class="btn_text">註冊</p></button>
+                            <button style="margin-left: 48px !important;" type="button" class="btn btn-default btn-outline-secondary"><p class="btn_text">註冊</p></button>
                         </div>
 
                     </div>
@@ -94,7 +97,26 @@
                     </div>
                     <div style="margin-top: 20px;display: flex;justify-content: start;">
                         <div>
-                            <iframe src="./videos/Ezreal_Combos.mp4" scrolling="no" frameborder="0" width="919" height="516" allowfullscreen="true"></iframe>
+
+
+                            <video id="myVideo" controls width="919" height="516">
+                                <source src="./videos/Ezreal_Combos.mp4" type='video/mp4' />
+                            </video>
+
+                            <form>
+                                <input id="pbr" type="range" value="1" min="0.5" max="4" step="0.1">
+                                <p>撥放速度 <span id="currentPbr">1</span></p>
+                            </form>
+
+                            <div id="grop" class="btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-primary active">
+                                    <input type="radio" name="options" id="option1" autocomplete="off" checked> 1X
+                                </label>
+                                <label class="btn btn-primary">
+                                    <input type="radio" name="options" id="option2" autocomplete="off"> 0.5X
+                                </label>
+                            </div>
+
                             <p class="text_NoAlign" style="font-size: 32px;line-height: 32px;padding-top: 10px;">伊澤瑞爾 暗殺連技</p>
                             <div style="width: 920px;height: 2px;margin-top: 16px;background-color: #000000;"></div>
                             <div style="display: flex;justify-content: start;margin-top: 25px;">

@@ -1,3 +1,8 @@
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 .background {
     width: 1920px;
     height: 3800px;

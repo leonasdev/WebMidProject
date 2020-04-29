@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'HanSans';
-    src: url("../font/NotoSansCJKtc-Thin")format("truetype");
+    src: url("../font/NotoSansCJKtc-Thin.otf")format("truetype");
 }
 body {
     overflow-x: hidden;

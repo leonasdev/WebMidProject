@@ -44,7 +44,32 @@
 
 
                     <div class="nav-right">
-                        <button type="button" class="btn btn-default btn-primary" data-toggle="tooltip" data-placement="top" title="按我登入"><p class="btn_text">登入</p></button>
+                        <button type="button" class="btn btn-default btn-primary dropdown" data-toggle="dropdown" id="dropdownMenuButton" data-placement="top" title="按我登入">
+                            <p class="btn_text">登入</p>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <form class="form-horizontal" method="post" accept-charset="UTF-8">
+                                    <p class="btn_text">
+                                        <a href="" class="btn btn-block btn-outline-info"> <i class="fab fa-twitter"></i>    Twitter登入</a>
+                                        <a href="" class="btn btn-block btn-outline-primary"> <i class="fab fa-facebook-f"></i>   Facebook登入</a>
+                                    </p>
+                                    <hr>
+                                    <div class="form-group">
+                                        <input name="" class="form-control" placeholder="帳號 or 電子信箱" type="email">
+                                    </div> <!-- form-group// -->
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="密碼" type="password">
+                                    </div> <!-- form-group// -->
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                            <label> <input type="checkbox"> 記住密碼 </label>
+                                        </div> <!-- checkbox .// -->
+                                    </div> <!-- form-group// -->
+
+                                    <input class="btn btn-primary" type="submit" name="submit" value="登入">
+
+                                </form>
+                            </div>
+                        </button>
                         <button style="margin-left: 48px !important;" type="button" class="btn btn-default btn-outline-secondary" data-toggle="tooltip" data-placement="top" title="按我註冊"><p class="btn_text">註冊</p></button>
                     </div>
 

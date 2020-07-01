@@ -20,22 +20,27 @@ $(document).ready(async function(){
 function getdata(champion){
     return new Promise(resolve => {
         var div=document.createElement("div");
-        var a=document.createElement("a");
+        var a1=document.createElement("a");
+        var a2=document.createElement("a");
         var img=document.createElement("img");
         var h3=document.createElement("h3");
-        div.className="col-12 col-sm-4 col-md-3 col-lg-2 mb-2";
-        a.className="d-flex flex-column align-items-center";
-        a.style="text-decoration:none;";
+        
+        a1.href="Combos.html";
+        a1.className="col-6 col-sm-4 col-md-3 col-lg-2 pb-3 pt-3";
+        a1.style="text-decoration:none;";
+        a2.className="d-flex flex-column align-items-center";
+        a2.style="text-decoration:none;";
         img.alt="";
-        h3.className="text_Center mt-1";
+        h3.className="text_Center pt-2";
         champion.get().then(doc=>{
             img.src=`${doc.data().champion_pic}`;
             h3.innerHTML=`${doc.data().name}`;
             resolve();
         });
-        a.appendChild(img);
-        a.appendChild(h3);
-        div.appendChild(a);
-        document.getElementById("Champions").appendChild(div);
+        a2.appendChild(img);
+        a2.appendChild(h3);
+        div.appendChild(a2);
+        a1.appendChild(div)
+        document.getElementById("Champions").appendChild(a1);
     });
 }

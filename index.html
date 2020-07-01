@@ -3,9 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -16,7 +18,8 @@
 </head>
     
 <body style="margin-top: 100px;padding: 0;">
-    <header>
+   
+    <div>
         <div id="topheader">
             <nav class="bg-nav fixed-top">
 
@@ -24,253 +27,261 @@
 
                     <div class="logo">
                         <a href="index.html">
-                            <img src=./images/logo.png alt="" style="width: 260px;height: 82px;margin-top:7px;">
+                            <img class="logo-img" src=./images/logo.png alt="">
                         </a>
                     </div>
-                   
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
+                    <div class="collapse navbar-collapse  justify-content-around " id="navbarSupportedContent">
+                        
+                        <ul class="nav navbar-nav nav-center justify-content-center ">
+                            <li class="nav-item active ">
+                                <a class="nav-link " href="index.html"><p class="nav_text">首頁</p></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Champions.html"><p class="nav_text">英雄</p></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Combos.html"><p class="nav_text">連技</p></a>
+                            </li>
+                        </ul>
+                    
+                    
+                        <div class="nav-right">
+                            <button type="button" class="btn btn-default btn-primary dropdown" data-toggle="dropdown" id="dropdownMenuButton" data-placement="top" title="按我登入">
+                                <p class="btn_text">登入</p>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <form class="form-horizontal" method="post" accept-charset="UTF-8">
+                                        <p class="btn_text">
+                                            <a href="" class="btn btn-block btn-outline-info"> <i class="fab fa-twitter"></i>    Twitter登入</a>
+                                            <a href="" class="btn btn-block btn-outline-primary"> <i class="fab fa-facebook-f"></i>   Facebook登入</a>
+                                        </p>
+                                        <hr>
+                                        <div class="form-group">
+                                            <input name="" class="form-control" placeholder="帳號 or 電子信箱" type="email">
+                                        </div> <!-- form-group// -->
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="密碼" type="password">
+                                        </div> <!-- form-group// -->
+                                        <div class="form-group">
+                                            <div class="checkbox">
+                                                <label> <input type="checkbox"> 記住密碼 </label>
+                                            </div> <!-- checkbox .// -->
+                                        </div> <!-- form-group// -->
 
-                    <ul class="nav navbar-nav nav-center justify-content-between ">
-                        <li class="nav-item active ">
-                            <a class="nav-link " href="index.html"><p class="nav_text">首頁</p></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Champions.html"><p class="nav_text">英雄</p></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Combos.html"><p class="nav_text">連技</p></a>
-                        </li>
-                    </ul>
+                                        <input class="btn btn-primary" type="submit" name="submit" value="登入">
 
-
-                    <div class="nav-right">
-                        <button type="button" class="btn btn-default btn-primary dropdown" data-toggle="dropdown" id="dropdownMenuButton" data-placement="top" title="按我登入">
-                            <p class="btn_text">登入</p>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <form class="form-horizontal" method="post" accept-charset="UTF-8">
-                                    <p class="btn_text">
-                                        <a href="" class="btn btn-block btn-outline-info"> <i class="fab fa-twitter"></i>    Twitter登入</a>
-                                        <a href="" class="btn btn-block btn-outline-primary"> <i class="fab fa-facebook-f"></i>   Facebook登入</a>
-                                    </p>
-                                    <hr>
-                                    <div class="form-group">
-                                        <input name="" class="form-control" placeholder="帳號 or 電子信箱" type="email">
-                                    </div> <!-- form-group// -->
-                                    <div class="form-group">
-                                        <input class="form-control" placeholder="密碼" type="password">
-                                    </div> <!-- form-group// -->
-                                    <div class="form-group">
-                                        <div class="checkbox">
-                                            <label> <input type="checkbox"> 記住密碼 </label>
-                                        </div> <!-- checkbox .// -->
-                                    </div> <!-- form-group// -->
-
-                                    <input class="btn btn-primary" type="submit" name="submit" value="登入">
-
-                                </form>
-                            </div>
-                        </button>
-                        <button style="margin-left: 48px !important;" type="button" class="btn btn-default btn-outline-secondary" data-toggle="tooltip" data-placement="top" title="按我註冊"><p class="btn_text">註冊</p></button>
+                                    </form>
+                                </div>
+                            </button>
+                            <button style="margin-left: 48px !important;" type="button" class="btn btn-default btn-outline-secondary" data-toggle="tooltip" data-placement="top" title="按我註冊"><p class="btn_text">註冊</p></button>
+                        </div>
                     </div>
-
                 </div>
 
             </nav>
         </div>
-    </header>
-
+    </div>
     
+   
 
     <article class="background">
-        <div style="width: 1920px;margin:auto;">
-
-            <img src=./images/Main_Background_HEAD.png alt="" id="backgroung_PIC">
-            <img src=./images/Main_Background_BODY.png alt="" id="backgroung_PIC" style="margin-top:1150px">
+        <img src=./images/Main_Background_HEAD.png alt="" id="" class="bg-img">
+        <img src=./images/Main_Background_BODY.png alt="" id="backgroung_PIC" style="margin-top:1150px;" class="bg-img">
+        <div style="margin:auto;" class="justify-content-center">
+            
+            
             <img src=./images/boost.png alt="" id="backgroung_PIC" style="width: 40px;height: 32px;margin-top:263px;margin-left:56px;">
 
-            <section style="margin-top:112px;" id="Content" class="content_c ">
+            <div style="padding-top:120px;" class="container">
+                <div class="row">
 
-                <div style="margin-top:80px;">
-                    <p class="content_text" style="color:#FF9B00;">風騷取得勝利</p>
-
-                    <div style="margin-top:32px;">
-                        <p class="content_text2" style="color:#FFFFFF;font-style:italic">提升自我</p>"
-                        <p class="content_text2" style="color:#FFFFFF;">把公平競技的遊戲方式交給我們</p>
-                    </div>
-
-                    <div style="margin-top:100px;">
-                        <p class="content_text3" style="color:#FFFFFF;">無廣告，獨特的勳章，S9的回顧還有全新的連技。</p>
-                        <p class="content_text3" style="color:#FFFFFF;">全部都在<a style="color:#FF9B00;">提升自我</a></p>
-                    </div>
+                            <div class="col-sm-4">
+                                <h4 class="content_text" style="color:#FF9B00;">風騷取得勝利</h4>
+        
+                                <div style="margin-top:32px;">
+                                    <h4 style="color:#FFFFFF;font-style:italic">提升自我</h4>
+                                    <h4 style="color:#FFFFFF;">把公平競技的遊戲方式交給我們</h4>
+                                </div>
+        
+                                <div style="margin-top:100px;">
+                                    <h4 style="color:#FFFFFF;">無廣告，獨特的勳章，S9的回顧還有全新的連技。</h4>
+                                    <h4 style="color:#FFFFFF;">全部都在<a style="color:#FF9B00;">提升自我</a></h4>
+                                </div>
+                                
+                            </div>
+        
+                            <div class="col-sm-8">
+        
+                                <video loop="true" autoplay="autoplay" width="100%" muted="true">
+                                    <source type="video/mp4" src="./videos/index_video.mp4"></source>
+                                </video>
+                            
+                            </div>
 
                 </div>
 
-                <aside>
-
-                    <video loop="true" autoplay="autoplay"  width="988" height="556"   muted="true">
-                        <source type="video/mp4" src="./videos/index_video.mp4"></source>
-                    </video>
-                
-                </aside>
-
-            </section>
-
-            <section style="margin-top:800px;" id="Content" class="content_a hideme">
-
-                <aside style="margin-top:80px;width:692px;">
-                    <img src=./images/home_combos_introduce.png alt="" style="width: 692px;">
-                </aside>
-
-                <div>
-                    <div style="margin-top:80px;width:692px;">
-                        <p class="content_text" style="color:#FF9B00;">掌握一切全靠提升自我</p>
-
-                        <div style="margin-top:32px;">
-                            <p class="content_text4" style="color:#FFFFFF;">符文，配置，和連</p>"
-                            <p class="content_text4" style="color:#FFFFFF;">技。</p>
-                        </div>
-
-                        <hr class="line">
-
+                <div class="row hideme"  style="margin-top:300px;" id="Content">
+                    
+                    <div class="col-sm-5  offset-sm-1">
+                        <img src=./images/home_combos_introduce.png alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-5 ">
                         <div>
-                            <p class="content_text3" style="color:#FFFFFF;"><b>不同操作難度的連技</b></p>
-                            <p class="content_text3" style="color:#CCDBFD;margin-top:25px;">從基本技術到足以秀你滿臉的操作，我們把所有連技都</p>
-                            <p class="content_text3" style="color:#CCDBFD;">分解給你看。</p>
+                            <p class="content_text" style="color:#FF9B00;">掌握一切全靠提升自我</p>
+    
+                            <div style="margin-top:32px;">
+                                <h1 style="color:#FFFFFF;">符文，配置，和連技。</h1>
+                            </div>
+    
+                            <hr class="line">
+    
+                            <div>
+                                <h4 style="color:#FFFFFF;"><b>不同操作難度的連技</b></h4>
+                                <h4 style="color:#CCDBFD;">從基本技術到足以秀你滿臉的操作，我們把所有連技都分解給你看。</h4>
+                            </div>
+    
+                            <div class="mt-5">
+                                <h4 style="color:#FFFFFF;"><b>可以控制速度的播放介面</b></h4>
+                                <h4 style="color:#CCDBFD;">0.5倍速播放，正常速度播放，全由你控制。</h4>
+                            </div>
+    
+                            <div class="mt-5">
+                                <h4 style="color:#FFFFFF;"><b>成為連技大師</b></p>
+                                <h4 style="color:#CCDBFD;">每種連技組合都有詳盡的執行方法，甚至是如何運作的都會告訴你。</p>
+                            </div>
+    
                         </div>
-
-                        <div style="margin-top:80px;">
-                            <p class="content_text3" style="color:#FFFFFF;"><b>可以控制速度的播放介面</b></p>
-                            <p class="content_text3" style="color:#CCDBFD;margin-top:25px;">0.5倍速播放，正常速度播放，全由你控制。</p>
-
-                        </div>
-
-                        <div style="margin-top:105px;">
-                            <p class="content_text3" style="color:#FFFFFF;"><b>成為連技大師</b></p>
-                            <p class="content_text3" style="color:#CCDBFD;margin-top:25px;">每種連技組合都有詳盡的執行方法，甚至是如何運作的</p>
-                            <p class="content_text3" style="color:#CCDBFD;">都會告訴你。</p>
-
-                        </div>
-
                     </div>
                 </div>
 
-            </section>
-
-            <section style="margin-top:1720px;" id="Content" class="content_a hideme">
-
-                <div style="margin-top:70px;width:840px;">
-                    <p class="content_text3" style="color:#000000;">警告！</p>
-                    <p class="content_text4" style="color:#000000;padding-top:20px;">如果您有這些徵兆：</p>"
-                    <img src=./images/sign.png alt="" style="width: 840px;">
+                <div class="row hideme"  style="margin-top:350px;" id="Content">
+                        <h1 class="col-sm-12 offset-sm-1 " style="color:#000000;">警告！</h1>
+                        <h1 class="col-sm-12 offset-sm-1 " style="color:#000000;">如果您有這些徵兆：</h1>"
+                        <div class="col-sm-6 offset-sm-1 ">
+                            <img  src=./images/sign.png alt="" style="width: 100%;">
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <img src=./images/warning.png alt="" style="width: 100%;">
+                        </div>
                 </div>
 
-                <aside>
-                    <div style="margin-top:80px;width:444px;">
-                        <img src=./images/warning.png alt="" style="width: 444px;padding-top:120px;">
+                <div class="row hideme"  style="margin-top:300px;" id="Content">
+                    <h2 class="col-sm-12" style="color:#FF9B00;text-align: center;">這只是起點</h2>
+                    <h1 class="col-sm-12" style="color:#FFFFFF;text-align: center;margin-bottom:50px;">提升自我 特色</h1>
 
+                    <div class="like-table col-sm-4 col-6">
+                        <img src=./images/icon-combo.png alt="">
+                        <h1 class="" style="color:#FFFFFF;padding-top:25px;">連技</h1>
+                        <h4 class="" style="color:#CCDBFD;padding-top:20px;">各種不同難度的連技解說及分解影片</h4>
                     </div>
-                </aside>
 
-            </section>
+                    <div class="like-table col-sm-4 col-6">
+                        <img src=./images/icon-s9.png alt="">
+                        <h1 class="" style="color:#FFFFFF;padding-top:25px;">S10年度回顧</h1>
+                        <h4 class="" style="color:#CCDBFD;padding-top:20px;">回顧召喚師S10年大大小小的事件</h4>
+                    </div>
 
-            <section style="margin-top:2620px;" id="Content" class="content_b hideme">
-                <div style="margin-top:70px;width:248px;">
-                    <p class="content_text3" style="color:#FF9B00;">這只是起點</p>
+                    <div class="like-table col-sm-4 col-6">
+                        <img src=./images/icon-adfree.png alt="">
+                        <h1 class="" style="color:#FFFFFF;padding-top:25px;">無廣告體驗</h1>
+                        <h4 class="" style="color:#CCDBFD;padding-top:20px;">體驗極快的讀取速度及乾淨的介面</h4>
+                    </div>
+
+                    <div class="like-table col-sm-4 col-6">
+                        <img src=./images/icon-badge.png alt="">
+                    <h1 class="" style="color:#FFFFFF;padding-top:25px;">提升自我徽章</h1>
+                    <h4 class="" style="color:#CCDBFD;padding-top:20px;">通過您特殊的個人資料頁面來炫耀你的徽章</h4>
+                    </div>
+
+                    <div class="like-table col-sm-4 col-6">
+                        <img src=./images/icon-livegame.png alt="">
+                    <h1 class="" style="color:#FFFFFF;padding-top:25px;">職業賽對戰紀錄</h1>
+                    <h4 class="" style="color:#CCDBFD;padding-top:20px;">每次職業賽對戰的詳盡對戰紀錄即時更新</h4>
+                    </div>
+
+                    <div class="like-table col-sm-4 col-6">
+                        <img src=./images/icon-customize.png alt="">
+                    <h1 class="" style="color:#FFFFFF;padding-top:25px;">客製化個人資料</h1>
+                    <h4 class="" style="color:#CCDBFD;padding-top:20px;">客製化個人資料頁面的英雄背景圖</h4>
+                    </div>
                 </div>
-            </section>
-
-            <section style="margin-top:2650px;" id="Content" class="content_d hideme">
-                <div style="margin-top:70px;width:544px;">
-                    <p class="content_text4" style="color:#FFFFFF;padding-top:20px;">提升自我 特色</p>"
-                </div>
-            </section>
-
-            <section style="margin-top:2770px;" id="Content" class="content_a hideme">
-
-                <div class="like-table" style="margin-top:70px;width:396px;">
-                    <img src=./images/icon-combo.png alt="">
-                    <p class="content_text2" style="color:#FFFFFF;padding-top:25px;">連技</p>
-                    <p class="content_text3" style="color:#CCDBFD;padding-top:20px;">各種不同難度的連技解說及</p>
-                    <p class="content_text3" style="color:#CCDBFD;">分解影片</p>
-                </div>
-
-
-                <div class="like-table" style="margin-top:70px;width:396px;">
-                    <img src=./images/icon-s9.png alt="">
-                    <p class="content_text2" style="color:#FFFFFF;padding-top:25px;">S9年度回顧</p>
-                    <p class="content_text3" style="color:#CCDBFD;padding-top:20px;">回顧召喚師S9年大大小小的</p>
-                    <p class="content_text3" style="color:#CCDBFD;">事件</p>
-
-                </div>
-
-                <div class="like-table" style="margin-top:70px;width:396px;">
-                    <img src=./images/icon-adfree.png alt="">
-                    <p class="content_text2" style="color:#FFFFFF;padding-top:25px;">無廣告體驗</p>
-                    <p class="content_text3" style="color:#CCDBFD;padding-top:20px;">體驗極快的讀取速度及乾淨</p>
-                    <p class="content_text3" style="color:#CCDBFD;">的介面</p>
-
-                </div>
-
-            </section>
-
-            <section style="margin-top:3200px;" id="Content" class="content_a hideme">
-
-                <div class="like-table" style="margin-top:70px;width:396px;">
-                    <img src=./images/icon-badge.png alt="">
-                    <p class="content_text2" style="color:#FFFFFF;padding-top:25px;">提升自我徽章</p>
-                    <p class="content_text3" style="color:#CCDBFD;padding-top:20px;">通過您特殊的個人資料頁面</p>
-                    <p class="content_text3" style="color:#CCDBFD;">來炫耀你的徽章</p>
-                </div>
-
-
-                <div class="like-table" style="margin-top:70px;width:396px;">
-                    <img src=./images/icon-livegame.png alt="">
-                    <p class="content_text2" style="color:#FFFFFF;padding-top:25px;">職業賽對戰紀錄</p>
-                    <p class="content_text3" style="color:#CCDBFD;padding-top:20px;">每次職業賽對戰的詳盡對戰</p>
-                    <p class="content_text3" style="color:#CCDBFD;">紀錄即時更新</p>
-
-                </div>
-
-                <div class="like-table" style="margin-top:70px;width:396px;">
-                    <img src=./images/icon-customize.png alt="">
-                    <p class="content_text2" style="color:#FFFFFF;padding-top:25px;">客製化個人資料</p>
-                    <p class="content_text3" style="color:#CCDBFD;padding-top:20px;">客製化個人資料頁面的英雄</p>
-                    <p class="content_text3" style="color:#CCDBFD;">背景圖</p>
-
-                </div>
-
-            </section>
-
-
         </div>
-        
-
     </article>
-
-
-    <footer class="bg-nav" style="margin-top: 0px;">
-        <!--此margin視各頁面修改-->
-        <div class="navbar navbar-expand-sm nav_box navbar-dark ">
-            <p class="text_NoAlign" style="font-size: 24px;margin-left: 0px;"><a href="#" style="color: inherit;text-decoration: inherit;">關於我們</a></p>
-            <p class="text_NoAlign" style="font-size: 24px;margin-left: 210px;"><a href="#" style="color: inherit;text-decoration: inherit;">FAQ</a></p>
-            <p class="text_NoAlign" style="font-size: 24px;margin-left: 210px;"><a href="#" style="color: inherit;text-decoration: inherit;">隱私權政策</a></p>
-            <p class="text_NoAlign" style="font-size: 24px;margin-left: 210px;"><a href="#" style="color: inherit;text-decoration: inherit;">服務條款</a></p>
-            <p class="text_NoAlign" style="font-size: 24px;margin-left: 210px;"><a href="#" style="color: inherit;text-decoration: inherit;">聯絡我們</a></p>
-            <a href="#" style="color: inherit;text-decoration: inherit;margin-left: 161px;">
-                <img src="./images/icon_facebook.png" alt="" style="width: 48px;height: 48px;">
-            </a>
-            <a href="#" style="color: inherit;text-decoration: inherit;margin-left: 26px;">
-                <img src="./images/icon_instagram.png" alt="" style="width: 48px;height: 48px;">
-            </a>
-            <a href="#" style="color: inherit;text-decoration: inherit;margin-left: 26px;">
-                <img src="./images/icon_twitter.png" alt="" style="width: 48px;height: 48px;">
-            </a>
-            <a href="#" style="color: inherit;text-decoration: inherit;margin-left: 26px;">
-                <img src="./images/icon_reddit.png" alt="" style="width: 48px;height: 48px;">
-            </a>
-
-        </div>
+    
+    <div class="navbar navbar-expand-sm nav_box justify-content-between navbar-dark">
         
-    </footer>
+    </div>
+
+    <footer class="p-4 " style="width: 100%;margin-top: 100px;background-color:#17172e;">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left ">
+      
+          <!-- Grid row -->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-9 ">
+                
+                <div style="height: 100%;">
+                    <ul class=" d-flex justify-content-around " style="height: 100%; text-decoration: none;">
+                        <li class="d-flex align-items-center justify-content-around">
+                          <a  class="nav-link " href="#!">關於我們</a>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-around">
+                          <a href="#!">FAQ</a>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-around">
+                          <a href="#!">隱私權政策</a>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-around">
+                            <a href="#!">服務條款</a>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-around">
+                            <a href="#!">聯絡我們</a>
+                        </li>
+                    </ul>
+
+                </div>
+                
+      
+            </div>
+            <!-- Grid column -->
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <!-- Grid column -->
+            <div class="col-md-3 ">
+      
+      
+              <ul class=" d-flex justify-content-around">
+                <li>
+                  <a href="#!"><img src="./images/icon_facebook.png" alt="" style="width: 48px;height: 48px;"></a>
+                </li>
+                <li>
+                  <a href="#!"><img src="./images/icon_instagram.png" alt="" style="width: 48px;height: 48px;"></a>
+                </li>
+                <li>
+                  <a href="#!"><img src="./images/icon_twitter.png" alt="" style="width: 48px;height: 48px;"></a>
+                </li>
+                <li>
+                  <a href="#!"><img src="./images/icon_reddit.png" alt="" style="width: 48px;height: 48px;"></a>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+        <!-- Footer Links -->
+
+      
+      </footer>
+      <!-- Footer -->
 </body>
 </html>

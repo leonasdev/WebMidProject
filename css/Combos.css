@@ -1,26 +1,48 @@
-@font-face {
-  font-family: "Bestfont";
-  src: url("../font/NotoSansCJKtc-Thin.otf")format("truetype");
+.backimg{
+  background-repeat: no-repeat; 
+  background-size: 1014px 570px; 
+  background-position: 50% -60px; 
+  background-image: radial-gradient(500px 200px at 50% 34%, rgba(7, 7, 32, 0) 0%, rgb(7, 7, 32) 100%), linear-gradient(90deg, rgb(7, 7, 32) 0%, rgba(7, 7, 32, 0) 100%), url("https://static.u.gg/assets/lol/riot_static/10.13.1/img/splash/Ezreal_0.jpg");
 }
-.background {
-    width: auto;
-    height:1680px;
-    margin: 0 0;
-    background-color: #070720;
-  }
-.box_Body{
-    width: 1200px;
-    height: 1270px;
-    background-color: #070720;
+
+.top-name-h1{
+  color: #fff;
 }
-.text_NoAlign{
-  font-family: "Bestfont";
-  color:#FFFFFF;
-  margin:0 0;
+
+
+.top-name-skill{
+  color: #bbbedb;
 }
-.text_Center{
-  font-family: "Bestfont";
-  text-align: center;
-  margin:0 0;
-  color:#FFFFFF;
+
+.top-avatar {
+  width: 120px;
+  height: 120px;
+}
+
+.top-skill{
+  width: 100%;
+}
+
+.top-skill img{
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.skill-title h1{
+  font-size: 30px;
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 578px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
 }

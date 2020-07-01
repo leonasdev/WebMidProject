@@ -2,31 +2,23 @@
   font-family: "Bestfont";
   src: url("../font/NotoSansCJKtc-Thin.otf")format("truetype");
 }
-.background {
-  width: auto;
-  height: 1215px;
-  background-color: #070720;
+body{
+  margin: 0 auto!important;
+  padding: 0!important;
+  background-color: #070720!important;
 }
 .text_NoAlign{
   font-family: "Bestfont";
   color:#FFFFFF;
   margin:0 0;
 }
-.box_Body{
-  width: 1188px;
-  height: 840px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+.champions_box_Body{
+  width: auto;
+  height: auto;
   background-color:#17172e;
-}
-.img_Body{
-  height: 120px;
-  width: 120px;
 }
 .text_Center{
   font-family: "Bestfont";
-  font-size: 24px;
   text-align: center;
   margin:0 0;
   color:#FFFFFF;

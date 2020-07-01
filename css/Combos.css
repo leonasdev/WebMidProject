@@ -35,6 +35,24 @@
 }
 
 
+.ct-aside-title{
+  color: #fff;
+}
+
+.hard {
+  color: #ff9b00;
+}
+
+.combo-img img{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.combo-case{
+  color: #cddcfe;
+}
+
 @media only screen and (max-width: 1280px) {
 
 }

@@ -26,11 +26,12 @@ function getdata(champion){
         var h3=document.createElement("h3");
         
         a1.href="Combos.html";
-        a1.className="col-6 col-sm-4 col-md-3 col-lg-2 pb-3 pt-3";
+        a1.className="col-6 col-sm-4 col-md-3 col-lg-2 pb-3 pt-3 ";
         a1.style="text-decoration:none;";
         a2.className="d-flex flex-column align-items-center";
         a2.style="text-decoration:none;";
         img.alt="";
+        img.className="shadow";
         h3.className="text_Center pt-2";
         champion.get().then(doc=>{
             img.src=`${doc.data().champion_pic}`;

@@ -52,34 +52,50 @@
                         </ul>
                     
                     
-                        <div class="nav-right">
-                            <button type="button" class="btn btn-default btn-primary dropdown" data-toggle="dropdown" id="dropdownMenuButton" data-placement="top" title="按我登入">
-                                <p class="btn_text">登入</p>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <form class="form-horizontal" method="post" accept-charset="UTF-8">
-                                        <p class="btn_text">
-                                            <a href="" class="btn btn-block btn-outline-info"> <i class="fab fa-twitter"></i>    Twitter登入</a>
-                                            <a href="" class="btn btn-block btn-outline-primary"> <i class="fab fa-facebook-f"></i>   Facebook登入</a>
-                                        </p>
-                                        <hr>
-                                        <div class="form-group">
-                                            <input name="" class="form-control" placeholder="帳號 or 電子信箱" type="email">
-                                        </div> <!-- form-group// -->
-                                        <div class="form-group">
-                                            <input class="form-control" placeholder="密碼" type="password">
-                                        </div> <!-- form-group// -->
-                                        <div class="form-group">
-                                            <div class="checkbox">
-                                                <label> <input type="checkbox"> 記住密碼 </label>
-                                            </div> <!-- checkbox .// -->
-                                        </div> <!-- form-group// -->
-
-                                        <input class="btn btn-primary" type="submit" name="submit" value="登入">
-
-                                    </form>
+                        <div class="nav-right d-flex justify-content-around nav-list">
+                            
+                            <div class="nav-item dropdown">
+                                <a href="#" data-toggle="dropdown" class="btn btn-primary btn-text"><p class="btn_text">登入</p></a>
+                                <div class="dropdown-menu action-form">
+                                    
+                                        
+                                          <h5 class="card-title text-center">登入</h5>
+                                          <form class="form-signin">
+                                            <div class="form-label-group">
+                                              <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                                              <label for="inputEmail">Email</label>
+                                            </div>
+                              
+                                            <div class="form-label-group">
+                                              <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                                              <label for="inputPassword">密碼</label>
+                                            </div>
+                              
+                                            <div class="custom-control custom-checkbox mb-3">
+                                              <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                              <label class="custom-control-label" for="customCheck1">忘記密碼</label>
+                                            </div>
+                                            <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">登入</button>
+                                            <hr class="my-4">
+                                            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i>Google 登入</button>
+                                            <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i>Facebook 登入</button>
+                                          </form>
+                                        
+                                    
                                 </div>
-                            </button>
+                            </div> 
+                            
+                            
+                            <div class="dropdown-menu p-3 login-menu">
+                                <form class="form-horizontal" method="post" accept-charset="UTF-8">
+                                    <input class="form-control login" type="text" name="username2" placeholder="Username">
+                                    <input class="form-control login" type="text" name="password2" placeholder="Password">
+                                    <input class="btn btn-primary" type="button" name="submit" value="Login">
+                                </form>
+                            </div>  
                             <button style="margin-left: 48px !important;" type="button" class="btn btn-default btn-outline-secondary" data-toggle="tooltip" data-placement="top" title="按我註冊"><p class="btn_text">註冊</p></button>
+                            
+                            
                         </div>
                     </div>
                 </div>

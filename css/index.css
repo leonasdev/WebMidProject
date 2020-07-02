@@ -412,6 +412,8 @@ p, ul li, ol li {
     padding-bottom: 10px;
 }
 
+
+
 .bg-img{
     position: absolute;
     left: 50%;
@@ -448,6 +450,10 @@ p, ul li, ol li {
         width: 0px;
         visibility:hidden;
     }
+    .nav-list{
+        padding-top: 30px;
+    }
+}
 }
 
 @media only screen and (max-width: 320px) {
@@ -455,4 +461,5 @@ p, ul li, ol li {
         width: 20px;
         height: 20px;
     }
+
 }

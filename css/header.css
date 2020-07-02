@@ -3,6 +3,10 @@
     src: url("../font/NotoSansCJKtc-Thin.otf")format("truetype");
 }
 
+#sticky-footer {
+    flex-shrink: none;
+}
+
 .footer-item{
     text-decoration: none;
 }
